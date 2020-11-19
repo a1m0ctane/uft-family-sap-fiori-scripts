@@ -7,6 +7,6 @@ Browser("Manage Sales Orders").Page("Manage Sales Orders").WebElement("Set Deliv
 Browser("Manage Sales Orders").Page("Manage Sales Orders").WebElement("Delivery Block").Click
 Browser("Manage Sales Orders").Page("Manage Sales Orders").WebElement("Check Shipping Data").Click
 Browser("Manage Sales Orders").Page("Manage Sales Orders").WebElement("OK").Click
-Browser("Manage Sales Orders").Page("Manage Sales Orders").WebElement("Close").Click
+OptionalStep.Browser("Manage Sales Orders").Page("Manage Sales Orders").WebElement("Close").Click
 Browser("Manage Sales Orders").Page("Manage Sales Orders").Image("Home").Click
 
