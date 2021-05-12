@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>ed543955-ddb6-48f1-bb76-1ff657032032</ID>
+  <Name>weather</Name>
+  <Type>REST</Type>
+  <Version>1</Version>
+  <CreationDate>2021-05-12T10:49:14.9388722+01:00</CreationDate>
+  <UpdateDate>2021-05-12T10:49:14.9388722+01:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>a0e014d1-257e-4434-a53d-2c1231cd949d.xml</MetaDataSignatureFile>
+  <TestResourceId>a0e014d1-257e-4434-a53d-2c1231cd949d</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.RestDesignTime.RestServicesV2</SignatureCodonId>
+  <SignatureAddinVersion>15.0.2.1306</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\khanamir\Documents\UFT Tests\UFT Family\UFT One\cat-fact.herokuapp\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\khanamir\Documents\UFT Tests\UFT Family\UFT One\cat-fact.herokuapp\EmbeddedResources\weather</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>15.0.2.1306</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>
