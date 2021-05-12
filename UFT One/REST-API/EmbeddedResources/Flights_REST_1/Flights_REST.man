@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>e5aebc18-7e8c-436e-aece-a6890ed80a18</ID>
+  <Name>Flights_REST</Name>
+  <Type>REST</Type>
+  <Version>1</Version>
+  <CreationDate>2021-05-12T10:35:49.4778616+01:00</CreationDate>
+  <UpdateDate>2021-05-12T10:35:49.4778616+01:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>45b91a50-c533-445f-ae2f-a668ec5f5d14.xml</MetaDataSignatureFile>
+  <TestResourceId>45b91a50-c533-445f-ae2f-a668ec5f5d14</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.RestDesignTime.RestServicesV2</SignatureCodonId>
+  <SignatureAddinVersion>15.0.2.1306</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\khanamir\Documents\UFT Tests\UFT Family\UFT One\REST-API\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\khanamir\Documents\UFT Tests\UFT Family\UFT One\REST-API\EmbeddedResources\Flights_REST_1</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>15.0.2.1306</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

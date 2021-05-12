@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\khanamir\Documents\UFT Tests\UFT Family\UFT One\REST-API</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>REST-API</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>11/05/2021 12:29:53</SystemProfile>
+    <SystemProfile>12/05/2021 10:29:15</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
