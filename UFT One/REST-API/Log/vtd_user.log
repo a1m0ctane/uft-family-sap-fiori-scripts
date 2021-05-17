@@ -1,22 +1,21 @@
-2021-05-12 10:30:38,647 [1] INFO  - Loaded appender: FileAppenderInternal
-2021-05-12 10:30:38,667 [1] INFO  - Loaded appender: FileAppenderExternal
-2021-05-12 10:30:38,668 [1] INFO  - Loaded appender: UserLoggerAppender
-2021-05-12 10:30:38,668 [1] INFO  - Loaded appender: FileAppenderInternal
-2021-05-12 10:30:38,668 [1] INFO  - Loaded appender: FileAppenderExternal
-2021-05-12 10:30:38,668 [1] INFO  - Loaded appender: UserLoggerAppender
-2021-05-12 10:30:39,247 [9] INFO  - Step 'Start' : Step 'Start' started
-2021-05-12 10:30:39,302 [9] INFO  - Step 'Start' ended successfully
-2021-05-12 10:30:39,306 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2021-05-12 10:30:39,309 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2021-05-12 10:30:39,312 [9] INFO  - Step 'ReserveOrder4' : Step 'ReserveOrder4' started
-2021-05-12 10:30:39,351 [9] INFO  - Step 'ReserveOrder4' : Fetching HTTP Url: 'http://localhost:8000/Flights_REST/FlightOrders'
-2021-05-12 10:30:41,416 [9] INFO  - Step 'ReserveOrder4' : Server returned status code: 404
-2021-05-12 10:30:41,419 [9] INFO  - Step 'ReserveOrder4' : HTTP Raw request:
-2021-05-12 10:30:41,420 [9] INFO  - Step 'ReserveOrder4' : POST http://localhost:8000/Flights_REST/FlightOrders 1.1
+2021-05-17 08:56:35,465 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-05-17 08:56:35,505 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-05-17 08:56:35,505 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-05-17 08:56:35,507 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-05-17 08:56:35,509 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-05-17 08:56:35,509 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-05-17 08:56:36,819 [9] INFO  - Step 'Start' : Step 'Start' started
+2021-05-17 08:56:36,981 [9] INFO  - Step 'Start' ended successfully
+2021-05-17 08:56:36,996 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2021-05-17 08:56:37,008 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2021-05-17 08:56:37,040 [9] INFO  - Step 'ReserveOrder4' : Step 'ReserveOrder4' started
+2021-05-17 08:56:37,158 [9] INFO  - Step 'ReserveOrder4' : Fetching HTTP Url: 'http://localhost:8000/Flights_REST/FlightOrders'
+2021-05-17 08:56:37,281 [9] INFO  - Step 'ReserveOrder4' : Server returned status code: 200
+2021-05-17 08:56:37,283 [9] INFO  - Step 'ReserveOrder4' : HTTP Raw request:
+2021-05-17 08:56:37,287 [9] INFO  - Step 'ReserveOrder4' : POST http://localhost:8000/Flights_REST/FlightOrders 1.1
 Content-Type: text/xml
 Host: localhost:8000
 Content-Length: 262
-Connection: Keep-Alive
 <FlightOrderDetails xmlns="HP.SOAQ.SampleApp">
   <Class>Business</Class>
   <CustomerName>Amir Khan</CustomerName>
@@ -25,23 +24,17 @@ Connection: Keep-Alive
   <NumberOfTickets>1</NumberOfTickets>
   </FlightOrderDetails>
 
-2021-05-12 10:30:41,430 [9] INFO  - Step 'ReserveOrder4' : HTTP Raw response:
-2021-05-12 10:30:41,432 [9] INFO  - Step 'ReserveOrder4' : HTTP/1.0 404 NOT FOUND
-Content-Length: 205
-Content-Type: application/problem+json
-Date: Wed, 12 May 2021 09:30:41 GMT
-Server: Werkzeug/1.0.1 Python/3.7.3
-{
-  "detail": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.",
-  "status": 404,
-  "title": "Not Found",
-  "type": "about:blank"
-}
-
-2021-05-12 10:30:41,434 [9] ERROR - Step 'ReserveOrder4' : Error Parsing XML Response: Data at the root level is invalid. Line 1, position 1.
-2021-05-12 10:30:41,438 [9] ERROR - Step 'ReserveOrder4' : Error Parsing XML Response: checkpoints will not run
-2021-05-12 10:30:41,440 [9] ERROR - Step 'ReserveOrder4' ended unsuccessfully
-2021-05-12 10:30:41,441 [9] INFO  - Step 'Iteration 1' ended successfully
-2021-05-12 10:30:41,443 [9] INFO  - Step 'Test Flow' ended successfully
-2021-05-12 10:30:41,445 [9] INFO  - Step 'End' : Step 'End' started
-2021-05-12 10:30:41,451 [9] INFO  - Step 'End' ended successfully
+2021-05-17 08:56:37,290 [9] INFO  - Step 'ReserveOrder4' : HTTP Raw response:
+2021-05-17 08:56:37,294 [9] INFO  - Step 'ReserveOrder4' : HTTP/1.1 200 OK
+Content-Length: 179
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 17 May 2021 07:56:37 GMT
+Server: Microsoft-HTTPAPI/2.0
+<CreatedOrderParams xmlns="HP.SOAQ.SampleApp" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><OrderNumber>344</OrderNumber><TotalPrice>332.4</TotalPrice></CreatedOrderParams>
+2021-05-17 08:56:37,342 [9] INFO  - Checkpoint 0: "344" > "0" passed
+2021-05-17 08:56:37,347 [9] INFO  - Checkpoint 1: "332,4" = "332,4" passed
+2021-05-17 08:56:37,363 [9] INFO  - Step 'ReserveOrder4' ended successfully
+2021-05-17 08:56:37,380 [9] INFO  - Step 'Iteration 1' ended successfully
+2021-05-17 08:56:37,385 [9] INFO  - Step 'Test Flow' ended successfully
+2021-05-17 08:56:37,389 [9] INFO  - Step 'End' : Step 'End' started
+2021-05-17 08:56:37,413 [9] INFO  - Step 'End' ended successfully
