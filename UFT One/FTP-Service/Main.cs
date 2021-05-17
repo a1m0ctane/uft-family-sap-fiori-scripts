@@ -140,7 +140,7 @@
             _flow.FTP_MakeDirActivity4.DirectoryURLPath = @"ftp://192.168.5.128:21";
             _flow.FTP_MakeDirActivity4.UserID = @"amir.khan.offenbach.main@gmail.com";
             _flow.FTP_MakeDirActivity4.Password = this._context.EncryptionMngr.Decrypt("1/71ZdfTuq+UNRZYmBy7Zg==");
-            _flow.FTP_MakeDirActivity4.DirectoryName = @"dmeo";
+            _flow.FTP_MakeDirActivity4.DirectoryName = @"bofrost";
             _flow.FTP_MakeDirActivity4.Comment = @"";
             _flow.FTP_MakeDirActivity4.IconPath = @"AddIns\ServiceTest\FTPActivity\ictb_New_folder_16.png";
             _flow.FTP_MakeDirActivity4.Name = @"FTP Directory Create4";
@@ -165,7 +165,7 @@
             binding_setter1 = new StringFormaterDecorator(binding_setter1,"{Step.OutputProperties.FTP_MakeDirActivity4.Result}");
             bind_dir1 = new BindDirection(_flow.FTP_MakeDirActivity4,binding_getter1,binding_setter1,BindTargetType.ToInProperty);
             _flow.ReportMessageActivity6.InDirections.Add(bind_dir1);
-            _flow.FTP_UploadActivity5.DirectoryURLPath = @"ftp://192.168.5.128:21/dmeo";
+            _flow.FTP_UploadActivity5.DirectoryURLPath = @"ftp://192.168.5.128:21/bofrost";
             _flow.FTP_UploadActivity5.UserID = @"amir.khan.offenbach.main@gmail.com";
             _flow.FTP_UploadActivity5.Password = this._context.EncryptionMngr.Decrypt("1/71ZdfTuq+UNRZYmBy7Zg==");
             _flow.FTP_UploadActivity5.FilePath = @"C:\Users\khanamir\Documents\Szenarien Anbieterpräsenation.pdf";
