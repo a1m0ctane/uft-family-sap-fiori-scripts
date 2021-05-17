@@ -147,7 +147,7 @@
             _flow.RESTActivityV24.IconPath = @"AddIns\ServiceTest\REST\ictb_REST_Method_16.png";
             _flow.RESTActivityV24.RequestBodyType = @"Xml";
             _flow.RESTActivityV24.ResponseType = @"Xml";
-            _flow.RESTActivityV24.Name = @"ReserveOrder4";
+            _flow.RESTActivityV24.Name = @"Create Flight Order";
             _flow.RESTActivityV24.Proxy.Server = @"";
             _flow.RESTActivityV24.Proxy.Username = @"";
             _flow.RESTActivityV24.Proxy.Password = @"";
