@@ -140,7 +140,7 @@
             _flow.Sequence11.Name = @"Sequence11";
             _flow.Sequence11.Activities.Add (_flow.DirectoryExistsActivity4);
             _flow.Sequence11.Activities.Add (_flow.IfElse5);
-            _flow.DirectoryExistsActivity4.FolderPath = @"C:\uft-demo-ftp\dmeo";
+            _flow.DirectoryExistsActivity4.FolderPath = @"C:\uft-demo-ftp\bofrost";
             _flow.DirectoryExistsActivity4.Comment = @"";
             _flow.DirectoryExistsActivity4.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_folder_exists.png";
             _flow.DirectoryExistsActivity4.Name = @"Check folder exists";
@@ -186,7 +186,7 @@
             _flow.IfElseBranch7.IconPath = @"";
             _flow.IfElseBranch7.Name = @"No";
             _flow.IfElseBranch7.Activities.Add (_flow.ReportMessageActivity10);
-            _flow.FileDeleteActivity8.FilePath = @"C:\uft-demo-ftp\dmeo\Szenarien Anbieterpräsenation.pdf";
+            _flow.FileDeleteActivity8.FilePath = @"C:\uft-demo-ftp\bofrost\Szenarien Anbieterpräsenation.pdf";
             _flow.FileDeleteActivity8.Comment = @"";
             _flow.FileDeleteActivity8.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_filedelete.png";
             _flow.FileDeleteActivity8.Name = @"File Deletion";

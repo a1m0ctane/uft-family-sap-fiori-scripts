@@ -1,28 +1,28 @@
-2021-05-11 10:10:47,366 [1] INFO  - Loaded appender: FileAppenderInternal
-2021-05-11 10:10:47,387 [1] INFO  - Loaded appender: FileAppenderExternal
-2021-05-11 10:10:47,388 [1] INFO  - Loaded appender: UserLoggerAppender
-2021-05-11 10:10:47,389 [1] INFO  - Loaded appender: FileAppenderInternal
-2021-05-11 10:10:47,389 [1] INFO  - Loaded appender: FileAppenderExternal
-2021-05-11 10:10:47,389 [1] INFO  - Loaded appender: UserLoggerAppender
-2021-05-11 10:10:47,905 [9] INFO  - Step 'Start' : Step 'Start' started
-2021-05-11 10:10:47,948 [9] INFO  - Step 'Start' ended successfully
-2021-05-11 10:10:47,954 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2021-05-11 10:10:47,957 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2021-05-11 10:10:47,960 [9] INFO  - Step 'Check folder exists' : Step 'Check folder exists' started
-2021-05-11 10:10:47,967 [9] INFO  - Step 'Check folder exists' : Input Parameter 'Path', Value: 'C:\uft-demo-ftp\dmeo'
-2021-05-11 10:10:47,971 [9] INFO  - Step 'Check folder exists' : Output Parameter 'Folder exists', Value: 'True'
-2021-05-11 10:10:47,974 [9] INFO  - Step 'Check folder exists' ended successfully
-2021-05-11 10:10:47,976 [9] INFO  - Step 'Condition5' : Step 'Condition5' started
-2021-05-11 10:10:47,981 [9] INFO  - Step 'IfElse5' : Evaluation style : Using condition
-2021-05-11 10:10:47,983 [9] INFO  - Step 'Yes' : Step 'Yes' started
-2021-05-11 10:10:47,986 [9] INFO  - Step 'File Deletion' : Step 'File Deletion' started
-2021-05-11 10:10:47,989 [9] INFO  - Step 'File Deletion' : Input Parameter 'File path', Value: 'C:\uft-demo-ftp\dmeo\Szenarien Anbieterpräsenation.pdf'
-2021-05-11 10:10:47,992 [9] INFO  - Step 'File Deletion' ended successfully
-2021-05-11 10:10:47,995 [9] INFO  - Step 'Report Message9' : Step 'Report Message9' started
-2021-05-11 10:10:47,999 [9] INFO  - Step 'Report Message9' : File deleted: True
-2021-05-11 10:10:48,004 [9] INFO  - Step 'Yes' ended successfully
-2021-05-11 10:10:48,008 [9] INFO  - Step 'Condition5' ended successfully
-2021-05-11 10:10:48,011 [9] INFO  - Step 'Iteration 1' ended successfully
-2021-05-11 10:10:48,013 [9] INFO  - Step 'Test Flow' ended successfully
-2021-05-11 10:10:48,015 [9] INFO  - Step 'End' : Step 'End' started
-2021-05-11 10:10:48,030 [9] INFO  - Step 'End' ended successfully
+2021-05-17 09:15:28,922 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-05-17 09:15:28,962 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-05-17 09:15:28,963 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-05-17 09:15:28,964 [1] INFO  - Loaded appender: FileAppenderInternal
+2021-05-17 09:15:28,965 [1] INFO  - Loaded appender: FileAppenderExternal
+2021-05-17 09:15:28,965 [1] INFO  - Loaded appender: UserLoggerAppender
+2021-05-17 09:15:30,186 [9] INFO  - Step 'Start' : Step 'Start' started
+2021-05-17 09:15:30,270 [9] INFO  - Step 'Start' ended successfully
+2021-05-17 09:15:30,280 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2021-05-17 09:15:30,287 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2021-05-17 09:15:30,292 [9] INFO  - Step 'Check folder exists' : Step 'Check folder exists' started
+2021-05-17 09:15:30,302 [9] INFO  - Step 'Check folder exists' : Input Parameter 'Path', Value: 'C:\uft-demo-ftp\bofrost'
+2021-05-17 09:15:30,309 [9] INFO  - Step 'Check folder exists' : Output Parameter 'Folder exists', Value: 'True'
+2021-05-17 09:15:30,314 [9] INFO  - Step 'Check folder exists' ended successfully
+2021-05-17 09:15:30,318 [9] INFO  - Step 'Condition5' : Step 'Condition5' started
+2021-05-17 09:15:30,327 [9] INFO  - Step 'IfElse5' : Evaluation style : Using condition
+2021-05-17 09:15:30,330 [9] INFO  - Step 'Yes' : Step 'Yes' started
+2021-05-17 09:15:30,333 [9] INFO  - Step 'File Deletion' : Step 'File Deletion' started
+2021-05-17 09:15:30,342 [9] INFO  - Step 'File Deletion' : Input Parameter 'File path', Value: 'C:\uft-demo-ftp\bofrost\Szenarien Anbieterpräsenation.pdf'
+2021-05-17 09:15:30,348 [9] INFO  - Step 'File Deletion' ended successfully
+2021-05-17 09:15:30,352 [9] INFO  - Step 'Report Message9' : Step 'Report Message9' started
+2021-05-17 09:15:30,360 [9] INFO  - Step 'Report Message9' : File deleted: True
+2021-05-17 09:15:30,370 [9] INFO  - Step 'Yes' ended successfully
+2021-05-17 09:15:30,385 [9] INFO  - Step 'Condition5' ended successfully
+2021-05-17 09:15:30,390 [9] INFO  - Step 'Iteration 1' ended successfully
+2021-05-17 09:15:30,395 [9] INFO  - Step 'Test Flow' ended successfully
+2021-05-17 09:15:30,399 [9] INFO  - Step 'End' : Step 'End' started
+2021-05-17 09:15:30,418 [9] INFO  - Step 'End' ended successfully

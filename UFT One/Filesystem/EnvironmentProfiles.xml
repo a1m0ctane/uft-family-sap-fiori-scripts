@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\khanamir\Documents\UFT Tests\UFT Family\UFT One\Filesystem</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Filesystem</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>11/05/2021 10:07:58</SystemProfile>
+    <SystemProfile>17/05/2021 09:12:58</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
